@@ -42,6 +42,7 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
   </ItemGroup>
   <Choose>
@@ -57,8 +58,11 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="TestDbContext.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserEntityMapping.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
