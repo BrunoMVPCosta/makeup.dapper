@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeUpDapper", "src\MakeUpDapper.csproj", "{9B2ACBB6-11F2-4708-855A-19C0BBCE3601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{67CF63A8-30EC-409A-8DB2-942D2F290B76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{093F63D8-4852-4F4A-8E28-F610CD35D7A3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Test", "integration\Integration.Test\Integration.Test.csproj", "{A922173F-8545-41EF-8231-702986D77381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTest", "PerformanceTest\PerformanceTest.csproj", "{8115D5F4-7B0A-45DB-B25B-64BD30585EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B2ACBB6-11F2-4708-855A-19C0BBCE3601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2ACBB6-11F2-4708-855A-19C0BBCE3601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2ACBB6-11F2-4708-855A-19C0BBCE3601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2ACBB6-11F2-4708-855A-19C0BBCE3601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CF63A8-30EC-409A-8DB2-942D2F290B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CF63A8-30EC-409A-8DB2-942D2F290B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CF63A8-30EC-409A-8DB2-942D2F290B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CF63A8-30EC-409A-8DB2-942D2F290B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A922173F-8545-41EF-8231-702986D77381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A922173F-8545-41EF-8231-702986D77381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A922173F-8545-41EF-8231-702986D77381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A922173F-8545-41EF-8231-702986D77381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8115D5F4-7B0A-45DB-B25B-64BD30585EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8115D5F4-7B0A-45DB-B25B-64BD30585EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8115D5F4-7B0A-45DB-B25B-64BD30585EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8115D5F4-7B0A-45DB-B25B-64BD30585EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\MakeUpDapper.csproj
+	EndGlobalSection
+EndGlobal
