@@ -49,6 +49,7 @@
     <Compile Include="DapperQueryProvider.cs" />
     <Compile Include="DatabaseModel.cs" />
     <Compile Include="Database\DatabaseFactory.cs" />
+    <Compile Include="Database\DatabaseFactoryBase.cs" />
     <Compile Include="Mapping\KeyType.cs" />
     <Compile Include="Mapping\BasePropertyConfiguration.cs" />
     <Compile Include="Mapping\EntityMapper.cs" />
