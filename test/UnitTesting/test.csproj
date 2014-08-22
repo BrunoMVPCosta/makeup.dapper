@@ -48,7 +48,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\MakeUpDapper.csproj">
+    <ProjectReference Include="..\..\src\MakeUpDapper.csproj">
       <Project>{9b2acbb6-11f2-4708-855a-19c0bbce3601}</Project>
       <Name>MakeUpDapper</Name>
     </ProjectReference>
