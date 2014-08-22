@@ -9,6 +9,7 @@ using MakeUpORM.Mapping;
 using MakeUp;
 using System.Linq;
 using System.Diagnostics;
+using System.Configuration;
 
 namespace Integration.Test
 {
